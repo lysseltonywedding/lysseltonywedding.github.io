@@ -649,6 +649,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
+  background-position: 50% 50% !important;
 }
 
 #qbootstrap-countdown {
@@ -658,6 +659,17 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 0;
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  #qbootstrap-countdown {
+    background-position: 50% 50% !important;
+  }
+
+  .qbootstrap-bg {
+    background-position: 50% 50% !important;
+  }
+}
+
 #qbootstrap-countdown .section-heading {
   margin-bottom: 0 !important;
 }
