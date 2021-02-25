@@ -12,8 +12,9 @@
 *
 * ======================================================= */
 #IDO:hover {
-  filter: hue-rotate(300deg);
-  -webkit-filter: hue-rotate(300deg);
+  filter: invert(71%) sepia(60%) saturate(3141%) hue-rotate(314deg) brightness(109%) contrast(114%) !important;
+  -webkit-filter:  invert(71%) sepia(60%) saturate(3141%) hue-rotate(314deg) brightness(109%) contrast(114%) !important;
+  cursor: pointer;
 }
 
 body {
