@@ -566,11 +566,13 @@
 			</div>
 		</div>
 	</footer>
-	<audio controls style="display:none" id="audio">
+	<audio id="siteAudio">
 		<source src="audio/SARANGSUROWO.mp3" type="audio/mp3">
 	</audio>
 	<script>
-		document.getElementById('audio').play();
+		setTimeout(() => {
+			document.getElementById('siteAudio').play();
+		}, 2000);
 	</script>
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
