@@ -294,12 +294,13 @@
 	var audioPlayer = function() {
 		$(document).on('click', '#IDO', function() {
 			document.getElementById('siteAudio').play();
+			$('.hearts').removeClass('hidden');
 		});
 	};
 	
 	// Document on load.
 	$(function(){
-
+		
 		burgerMenu();
 		testimonialCarousel();
 		sliderMain();
