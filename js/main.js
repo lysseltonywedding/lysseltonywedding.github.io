@@ -291,7 +291,12 @@
 		$('.player').mb_YTPlayer();
 	};
         
-
+	var audioPlayer = function() {
+		$(document).on('click', '#IDO', function() {
+			document.getElementById('siteAudio').play();
+		});
+	};
+	
 	// Document on load.
 	$(function(){
 
@@ -305,7 +310,6 @@
 		contentWayPoint();
 		inlineSVG();
 		bgVideo();
+		audioPlayer();
 	});
-
-
 }());

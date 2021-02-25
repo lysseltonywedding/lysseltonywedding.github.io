@@ -11,6 +11,11 @@
 *	Edit this section
 *
 * ======================================================= */
+#IDO:hover {
+  filter: hue-rotate(300deg);
+  -webkit-filter: hue-rotate(300deg);
+}
+
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
